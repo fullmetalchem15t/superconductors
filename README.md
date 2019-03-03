@@ -4,13 +4,16 @@
  
 ## Contents of Repository 
  
+
 [Superconductor_statistics.ipynb](https://github.com/fullmetalchem15t/superconductors/blob/master/Superconductor_statistics.ipynb):
  
 [Superconductor_clustering.ipynb](https://github.com/fullmetalchem15t/superconductors/blob/master/Superconductor_clustering.ipynb):
  
 [Superconductor_linear_reg.ipynb](https://github.com/fullmetalchem15t/superconductors/blob/master/Superconductor_linear_reg.ipynb):
  
-[Superconductor_gradient_boosting.ipynb](https://github.com/fullmetalchem15t/superconductors/blob/master/Superconductor_gradient_boosting.ipynb):
+[Superconductor_gradient_boosting.ipynb](https://github.com/fullmetalchem15t/superconductors/blob/master/Superconductor_gradient_boosting.ipynb)
+
+[Superconductor_Slides.pdf](https://github.com/fullmetalchem15t/superconductors/blob/master/Superconductor_Slides.pdf) : In progress
  
 ## Purpose
  
@@ -23,13 +26,13 @@ There are three part to this project, clustering, linear regression, and gradien
 ## Results
 
 * For the linear regression model:
-  - The Unclustered model has an RMSE 19.50 K and an r2 of 0.70
-  - When clustering the RMSE is 17.36 K and the r2 is 0.76
-  - Clustering did improve accuracy of linear regression model
+  - The Unclustered model has an RMSE 19.50 K and an r$^2$ of 0.70.
+  - When clustering the RMSE is 17.36 K and the r$^2$ is 0.76.
+  - Clustering did improve accuracy of linear regression model.
  
 * For the gradient boosting model:
-  - The RMSE for the Unclustered model was 11.40 K
-  - The RMSE when clustering was 11.56 K
+  - The RMSE for the Unclustered model was 11.40 K and an r$^2$ of 0.90. 
+  - When clustering, the RMSE is 11.56 K and the r$^2$ is 0.89.  
   - Clustering did not improve accuracy of gradient boosting model.
 
 ## Conclusion
