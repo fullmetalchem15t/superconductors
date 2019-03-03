@@ -6,12 +6,15 @@
  
 
 [Superconductor_statistics.ipynb](https://github.com/fullmetalchem15t/superconductors/blob/master/Superconductor_statistics.ipynb):
+Data initialization and statistics overview.
  
 [Superconductor_clustering.ipynb](https://github.com/fullmetalchem15t/superconductors/blob/master/Superconductor_clustering.ipynb):
- 
+ Clustering notebook
+
 [Superconductor_linear_reg.ipynb](https://github.com/fullmetalchem15t/superconductors/blob/master/Superconductor_linear_reg.ipynb):
- 
-[Superconductor_gradient_boosting.ipynb](https://github.com/fullmetalchem15t/superconductors/blob/master/Superconductor_gradient_boosting.ipynb)
+ Linear regression notebook
+
+[Superconductor_gradient_boosting.ipynb](https://github.com/fullmetalchem15t/superconductors/blob/master/Superconductor_gradient_boosting.ipynb): Gradient boosting notebook.
 
 [Superconductor_Slides.pdf](https://github.com/fullmetalchem15t/superconductors/blob/master/Superconductor_Slides.pdf) : In progress
  
