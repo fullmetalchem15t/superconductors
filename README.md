@@ -29,7 +29,7 @@ There are three part to this project, clustering, linear regression, and gradien
 * For the gradient boosting model:
   - The RMSE for the Unclustered model was 11.40 K
   - The RMSE when clustering was 11.56 K
-  - Clustering did not improve accuracy of gradient boosting model 
+  - Clustering did not improve accuracy of gradient boosting model.
 
 ## Conclusion
 
