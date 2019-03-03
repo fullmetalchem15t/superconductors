@@ -14,7 +14,8 @@
  
 ## Purpose
  
-In this project, the critical temperature of superconductors is modeled and predicted. This is based on the work of [Ken Hamidieh](https://arxiv.org/abs/1803.1026). We are adding clustering based the observation that the data is bimodal. We will determine if clustering improves prediction.
+In this project, the critical temperature of superconductors is modeled and predicted. This is based on the work of 
+[Ken Hamidieh](https://arxiv.org/abs/1803.1026). We are adding clustering based the observation that the data is bimodal. We will determine if clustering improves prediction.
  
 ## Method
  
