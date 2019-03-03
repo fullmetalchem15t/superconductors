@@ -22,8 +22,8 @@ There are three part to this project, clustering, linear regression, and gradien
 ## Results
 
 * For the linear regression model:
-  - The RMSE for the Unclustered model was 19.50 K
-  - The RMSE when clustering was 17.36 K
+  - The Unclustered model has an RMSE 19.50 K and an r2 of 0.70
+  - When clustering the RMSE is 17.36 K and the r2 is 0.76
   - Clustering did improve accuracy of linear regression model
  
 * For the gradient boosting model:
@@ -33,4 +33,8 @@ There are three part to this project, clustering, linear regression, and gradien
 
 ## Conclusion
 
-Will come soon.
+The critical temperature of superconductors were predicted with a high level of accuracy. As suspected, gradient boosting performed better than linear regressions. Clustering had improved the results of the linear regression model but little effect on gradient boosting model. Clustering may have improved results for linear regression accuracy if the relationship between the properties and critical temperature is non-linear. Clustering fragmented the prediction into two different linear fits regions which was more flexible than a single linear fit. The gradient boosting method is nonlinear and as a flexible enough that it does not need different models for feature value regions.
+
+ 
+While not examined here as of yet, it would be interesting to determine how well a predictive model can do using the elements in the superconductors alone. The feature properties were derived from elemental components alone, not the superconductor. The properties may be a proxy for the elemental components.
+
