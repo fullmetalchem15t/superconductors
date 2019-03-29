@@ -16,12 +16,15 @@ Data initialization and statistics overview.
 
 [Superconductor_gradient_boosting.ipynb](https://github.com/fullmetalchem15t/superconductors/blob/master/Superconductor_gradient_boosting.ipynb): Gradient boosting notebook.
 
-[Superconductor_Slides.pdf](https://github.com/fullmetalchem15t/superconductors/blob/master/Superconductor_Slides.pdf) : In progress
+[Superconductor_Slides.pdf](https://github.com/fullmetalchem15t/superconductors/blob/master/Superconductor_Slides.pdf) : Slide show overview this project.
+
+[superconductor.pdf](https://github.com/fullmetalchem15t/superconductors/blob/master/superconductor.pdf) : Documentation of this project.
+ 
  
 ## Purpose
  
 In this project, the critical temperature of superconductors is modeled and predicted. This is based on the work of 
-[Ken Hamidieh](https://arxiv.org/abs/1803.1026). We are adding clustering based the observation that the data is bimodal. We will determine if clustering improves prediction.
+[Ken Hamidieh](https://arxiv.org/abs/1803.1026). We are adding clustering based the observation that the data is bimodal. We  determined if clustering improves prediction.
  
 ## Method
  
@@ -29,13 +32,13 @@ There are three part to this project, clustering, linear regression, and gradien
 ## Results
 
 * For the linear regression model:
-  - The Unclustered model has an RMSE 19.50 K and an r<sup>2</sup> of 0.70.
-  - When clustering the RMSE is 17.36 K and the r<sup>2</sup> is 0.76.
+  - The Unclustered model has an RMSE 19.50 K and an R<sup>2</sup> of 0.70.
+  - When clustering the RMSE is 17.36 K and the R<sup>2</sup> is 0.76.
   - Clustering did improve accuracy of linear regression model.
  
 * For the gradient boosting model:
-  - The RMSE for the Unclustered model was 11.40 K and an r<sup>2</sup> of 0.90. 
-  - When clustering, the RMSE is 11.56 K and the r<sup>2</sup> is 0.89.  
+  - The RMSE for the Unclustered model was 11.33 K and an R<sup>2</sup> of 0.90. 
+  - When clustering, the RMSE is 11.39 K and the R<sup>2</sup> is 0.90.  
   - Clustering did not improve accuracy of gradient boosting model.
 
 ## Conclusion
