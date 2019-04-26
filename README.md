@@ -24,7 +24,7 @@ Data initialization and statistics overview.
 ## Purpose
  
 In this project, the critical temperature of superconductors is modeled and predicted. This is based on the work of 
-[Ken Hamidieh](https://arxiv.org/abs/1803.10260). We are adding clustering based the observation that the data is bimodal. We  determined if clustering improves prediction.
+[Ken Hamidieh](https://arxiv.org/abs/1803.10260). We introduced clustering, based on the observation that the data is bimodal, to the model to determined if it improves prediction.
  
 ## Method
  
